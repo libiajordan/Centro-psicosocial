@@ -1,0 +1,68 @@
+/* Estilos para los card-body */
+.card {
+    background-color: #f4f4f4;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 20px;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+.card h6 {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Estilos para el contenido de la tarjeta */
+.card-body {
+    padding: 15px;
+    min-height: 150px; /* Tamaño mínimo para todos los card-body */
+}
+
+/* Cambiar colores para resaltar información de salud */
+.card-primary {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.card-warning {
+    background-color: #FFA500;
+    color: #fff;
+}
+
+.card-success {
+    background-color: #28A745;
+    color: #fff;
+}
+
+
+/* Estilo para el botón de cerrar sesión */
+.cerrar-sesion-button {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; /* Espaciado interno para el botón */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s; /* Transición suave del color de fondo al pasar por encima */
+}
+  
+/* Estilo para el botón de cerrar sesión al pasar el mouse por encima */
+.cerrar-sesion-button:hover {
+    background-color: #007bff; /* Cambia el color de fondo al pasar el mouse por encima (puedes personalizarlo) */
+}
+
+  
+
+

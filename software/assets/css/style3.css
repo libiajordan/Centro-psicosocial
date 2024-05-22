@@ -1,0 +1,33 @@
+/* Estilos para el select */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Estilos adicionales para el botón "Guardar Evolución" */
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Estilos para el botón "Cerrar" */
+input[type="submit"] {
+    background-color: #ccc;
+    color: #000;
+}

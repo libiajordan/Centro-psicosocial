@@ -1,0 +1,106 @@
+/* Estilos generales */
+.card {
+    margin-bottom: 20px;
+}
+/* Estilos para la ventana emergente */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    height: calc(100% - 100px);
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+}
+
+.modal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.modal-content {
+    background-color: #b8a7f7;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    color: #333;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Estilo para los botones dentro del formulario */
+.styled-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.styled-button:hover {
+    background-color: #0056b3;
+}
+/* Estilo para el campo de "Motivo de Consulta" dentro del formulario */
+#motivoConsulta {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.nav-item.logout-item {
+    list-style: none; /* Quita los marcadores de lista */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item.logout-item a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.nav-item.logout-item a:hover {
+    color: #007bff; /* Cambia el color del enlace al pasar el mouse */
+}
+
+.nav-item.logout-item .text-center {
+    width: 40px; /* Ancho del icono */
+}
+
+/* Estilo para el botón de cerrar sesión */
+.cerrar-sesion-button {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; /* Espaciado interno para el botón */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s; /* Transición suave del color de fondo al pasar por encima */
+}
+  
+/* Estilo para el botón de cerrar sesión al pasar el mouse por encima */
+.cerrar-sesion-button:hover {
+    background-color: #007bff; /* Cambia el color de fondo al pasar el mouse por encima (puedes personalizarlo) */
+}
+
+
+

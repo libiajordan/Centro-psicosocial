@@ -1,0 +1,90 @@
+/* Estilo para el botón "Crear Sesión" */
+#openFormBtn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#openFormBtn:hover {
+    background-color: #2980b9;
+}
+
+
+/* Estilo para el formulario de registro de sesiones */
+
+#registroForm {
+    background-color: #fff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#registroForm label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+#registroForm input,
+#registroForm select,
+#registroForm textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#registroForm textarea {
+    resize: vertical;
+}
+
+#registroForm button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#registroForm button:hover {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estilo para ocultar el formulario inicialmente */
+#registroForm.d-none {
+    display: none;
+}
+
+/* Estilo para el botón de cerrar sesión */
+.cerrar-sesion-button {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; /* Espaciado interno para el botón */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s; /* Transición suave del color de fondo al pasar por encima */
+}
+  
+/* Estilo para el botón de cerrar sesión al pasar el mouse por encima */
+.cerrar-sesion-button:hover {
+    background-color: #007bff; /* Cambia el color de fondo al pasar el mouse por encima (puedes personalizarlo) */
+}

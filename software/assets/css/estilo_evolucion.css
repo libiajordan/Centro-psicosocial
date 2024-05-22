@@ -1,0 +1,37 @@
+/* Estilo para la barra de selección */
+select[name="paciente_id"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Estilo para el botón "Mostrar Información" */
+input[type="submit"][name="seleccionar_paciente"] {
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Borde */
+    border-radius: 4px; /* Borde redondeado */
+    cursor: pointer; /* Cursor al pasar el ratón */
+    font-size: 16px; /* Tamaño del texto */
+    margin-top: 10px; /* Espaciado superior */
+}
+/* Estilo para el botón de cerrar sesión */
+.cerrar-sesion-button {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; /* Espaciado interno para el botón */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s; /* Transición suave del color de fondo al pasar por encima */
+}
+  
+/* Estilo para el botón de cerrar sesión al pasar el mouse por encima */
+.cerrar-sesion-button:hover {
+    background-color: #007bff; /* Cambia el color de fondo al pasar el mouse por encima (puedes personalizarlo) */
+}
+

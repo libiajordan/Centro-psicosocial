@@ -1,0 +1,127 @@
+﻿
+
+/* Estilos para el formulario de registro de medicos */
+#formularioMedico {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+    #formularioMedico h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    #formularioMedico label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    #formularioMedico input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    #formularioMedico button[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+        #formularioMedico button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+/* Estilos para el botón "Crear medico" */
+#crearMedicoBtn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+    #crearMedicoBtn:hover {
+        background-color: #0056b3;
+    }
+
+/* Estilos para el botón "Cerrar" */
+#cerrarFormularioBtn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+    #cerrarFormularioBtn:hover {
+        background-color: #0056b3;
+    }
+
+body {
+    font-family: "fontawesome", sans-serif;
+    color: #585a61;
+}
+
+
+/* Estilos para el botón "Crear registro para evoluciones" */
+#crearEvolucionBtn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+    #crearEvolucionBtn:hover {
+        background-color: #0056b3;
+    }
+
+/* Estilos para el botón "Cerrar" */
+#cerrarFormulario1 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#cerrarFormulario1:hover {
+    background-color: #0056b3;
+}
+
+.form-group {
+    display: block;
+    margin-bottom: 0px;
+}
+.form-group label {
+    display: block;
+}
+.form-group textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+
+
+
+
+
+
+
+
